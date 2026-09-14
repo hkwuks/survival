@@ -1,0 +1,4 @@
+interface:
+  display_name: "职场兵法"
+  short_description: "中国职场自保、留痕与高质量交付"
+  default_prompt: "使用 $survival，先做五事七计和组织地形勘验；简单沟通用快捷模式，复杂场景按相关方态势、我方态势、地形、胜算、战略目标、战术动作、话术、留痕、升级、禁忌与复盘十段式分析。"
