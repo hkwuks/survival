@@ -15,6 +15,7 @@ metadata:
 - 不把兵法里的诈、火攻、离间、间谍等军事手段直接搬到工作场所。它们在本 skill 中只能转译为防范他人操纵、控制信息范围、合法调查、正式升级或安全退出。
 - “不给人留把柄”只表示：不承诺自己无权承诺的事，不把猜测写成事实，不绕过授权，不篡改记录，不在公开场合情绪化攻击；绝不表示掩盖真实错误。
 - 涉及暴力、威胁、强迫违法、工资/社保、性骚扰、歧视、严重报复、个人隐私或商业秘密时，停止普通博弈，优先安全、公司正式渠道及当地专业法律意见。
+- 用户授权的沟通原文、姓名和证据可永久保存在本地 `survival-records/`；绝不加入 Git、公开仓库或未经用户指定的外部服务。不得保存访问令牌、密码、私钥或其他凭据。
 
 ## 战役总纲
 
@@ -29,7 +30,17 @@ metadata:
 7. **地形/九地**：根据权力结构、信息通道、项目阶段和退路选择渠道；在绝境优先保全。
 8. **用间**：只通过授权系统、公开资料、正常业务记录和当事人确认获得信息；情报必须可核验且最小必要。
 
-先读 [campaign-engine.md](references/campaign-engine.md)。它定义了“算、守、争、变、升/退”的完整引擎；再按需读取其他文件。
+先读 [campaign-engine.md](references/campaign-engine.md)。它定义了“算、守、争、变、升/退”的完整引擎；每次涉及分析、决策或同事沟通需求时，还必须遵守 [project-context-and-records.md](references/project-context-and-records.md)。
+
+## 项目上下文与本地记录
+
+在给出分析、决策或沟通建议前：
+
+1. 以用户指定的项目根目录为边界；未指定时使用当前工作目录。先识别项目自身的文档索引、目录约定和权威来源，再读取与本次问题有关的入口说明、需求/设计/架构文档、决策记录、变更日志和当前任务资料；不假定固定的文件名或目录结构。
+2. 将实际读取的路径、版本/日期和与当前问题有关的变更写入本次记录；没有找到时写“未发现可用项目设计或变更记录”，不自行补全。
+3. 在首次需要记录时创建本地 `survival-records/`；每次调用单独写入一份永久记录，保留用户输入中的姓名、原文、附件引用和沟通需求。不得将记录目录加入 Git 暂存、提交或推送。
+
+记录格式、读取顺序和安全例外见 [project-context-and-records.md](references/project-context-and-records.md)。
 
 ## 先做战局勘验，后给建议
 
@@ -95,6 +106,7 @@ metadata:
 - 面对拉踩、抢功、甩锅、不可能项目、供应商切换、绩效陷阱或离职：读 [scenario-campaigns.md](references/scenario-campaigns.md)。
 - 要写消息、纪要、风险报告、决策记录或可行性门槛：读 [templates.md](references/templates.md)。
 - 要留痕、投诉、升级或保全：读 [evidence-and-escalation.md](references/evidence-and-escalation.md)。
+- 要读取项目设计变更或记录每次沟通需求：读 [project-context-and-records.md](references/project-context-and-records.md)。
 
 ## 让领导欣赏的用兵法
 
