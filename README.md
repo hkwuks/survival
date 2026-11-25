@@ -29,4 +29,5 @@ $survival：老板在群里说项目延期是我的责任，但依赖团队晚�
 - [SKILL.md](survival/SKILL.md)：核心判断与使用边界。
 - [判断工具](survival/references/campaign-engine.md)：情境分析及行动选择。
 - [兵法与现代方法](survival/references/strategy-map.md)：思想来源、现代补充与适用边界。
+- [多部兵书的战略判断](survival/references/classics-in-practice.md)：七书选段的不同视角、职场转译与适用边界。
 - `survival/references/`：岗位、场景、沟通、证据和本地记录的按需参考。

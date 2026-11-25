@@ -40,6 +40,7 @@ metadata:
 ## 按需参考
 
 - 需要梳理策略和条件变化时，参考 [判断工具](references/campaign-engine.md)。
+- 需要深入比较古代兵法的不同判断方式时，参考 [多部兵书的战略判断](references/classics-in-practice.md)；按问题选择相关原典、条件和反例，不须逐本套用。
 - 需要核对古代思想及其现代转译时，参考 [兵法与现代方法](references/strategy-map.md)。
 - 需要岗位、具体场景、文稿或证据支持时，按相关性查阅 [岗位参考](references/role-playbooks.md)、[场景素材](references/scenario-campaigns.md)、[沟通参考](references/templates.md) 和 [留痕与升级](references/evidence-and-escalation.md)。这些是素材，不是必走流程或固定输出。
 - 只有项目资料确实可能改变建议且用户授权访问时，才读取相关资料；记录规则见 [项目上下文与记录](references/project-context-and-records.md)。
